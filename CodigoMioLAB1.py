@@ -1,3 +1,9 @@
+#Mi probolematica, o mas bien mi situacion es que hago muestras medicas o mas bien las ordeno entonces para lo que sirve este codigo es para saber registrarlas de manera correcta
+#Los nombres de estas son Tazarol Rapid, Neuro Tazarol, Reversal Flex y Dromadol Forte, con estas muestras medicas podremos registrarlas por su nombre y los datos de los registros 
+#vendrian siendo basicamente las caracteristicas que poseen estas muestras medicas 
+
+
+
 class MuestraMedica: #Clase que define las propiedades de cada muestra médica
     def __init__(self, tipo, lote, cantidad, fecha_vencimiento, laboratorio):
         self.tipo = tipo
